@@ -1,16 +1,16 @@
-/* .container {
-  width: 992px;
+.container {
+  /* width: 992px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   margin-top: 100px;
-} */
+}
 
 /* BLOCCO LEZIONI */
-#lezioni .container>.left,
+/* #lezioni .container>.left,
 #lezioni .container>.right {
   width: 50%;
   float: left;
-}
+} */
 
 #lezioni .container img {
   /* per centrare orizzontalmente */
@@ -24,12 +24,12 @@
 }
 
 /* BLOCCO STEPS */
-#steps .container>.left,
+/* #steps .container>.left,
 #steps .container>.central,
 #steps .container>.right {
   float: left;
   width: 33%;
-}
+} */
 
 #steps {
   text-align: center;
@@ -40,10 +40,15 @@
   text-align: center;
 }
 
-#why .container>.first,
+/* Questa diventa come più sotto */
+/* #why .container>.first,
 #why .container>.second,
 #why .container>.third {
   width: 100%;
+  margin-top: 80px;
+} */
+#why .container>[class*="col-"] {
+  /* width: 100%; */
   margin-top: 80px;
 }
 
