@@ -1,7 +1,4 @@
 .container {
-  /* width: 992px;
-  margin-left: auto;
-  margin-right: auto; */
   margin-top: 100px;
   padding-bottom: 20px;
 }
@@ -9,13 +6,6 @@
 hr {
   display: none;
 }
-
-/* BLOCCO LEZIONI */
-/* #lezioni .container>.left,
-#lezioni .container>.right {
-  width: 50%;
-  float: left;
-} */
 
 #lezioni .container img {
   /* per centrare orizzontalmente */
@@ -28,14 +18,6 @@ hr {
   text-align: center;
 }
 
-/* BLOCCO STEPS */
-/* #steps .container>.left,
-#steps .container>.central,
-#steps .container>.right {
-  float: left;
-  width: 33%;
-} */
-
 #steps {
   text-align: center;
 }
@@ -45,13 +27,6 @@ hr {
   text-align: center;
 }
 
-/* Questa diventa come più sotto */
-/* #why .container>.first,
-#why .container>.second,
-#why .container>.third {
-  width: 100%;
-  margin-top: 80px;
-} */
 #why .container>[class*="col-"] {
   /* width: 100%; */
   margin-top: 80px;
@@ -64,12 +39,6 @@ hr {
 }
 
 /* COMMON */
-/* .container::after {
-  content: '';
-  display: table;
-  clear: both;
-} */
-
 .container.grey {
   background-color: #f9f9f9;
 }
@@ -94,11 +63,8 @@ h3 {
   .container {
 
       padding: 0 30px;
-      /* margin-left: 0;
-      margin-right: 0; */
       margin-top: 50px;
       font-family: sans-serif;
-      /* text-align: justify; */
     }
 
     .container h1, h3 {
@@ -128,16 +94,11 @@ h3 {
       padding-top: 10px;
     }
 
-
     #why .container>[class*="col-"] {
       margin-top: 80px;
       float: left;
       padding: 0 20px;
       margin-bottom: 40px;
-    }
-
-    hr {
-      display: none;
     }
 
 }
@@ -149,8 +110,6 @@ h3 {
 
   .container {
       padding: 0 30px;
-      /* margin-left: 0;
-      margin-right: 0; */
       margin-top: 25px;
       font-family: sans-serif;
     }
@@ -173,11 +132,6 @@ h3 {
       padding: 0 10px;
     }
 
-    #lezioni .container [class*="col-"]:last-child img {
-      height: auto;
-      width: 200px;
-    }
-
     #steps .container>[class*="col-"] {
       margin-bottom: 40px;
       padding: 0 10px;
@@ -187,7 +141,6 @@ h3 {
       padding-top: 5px;
     }
 
-
     #why .container>[class*="col-"] {
       margin-top: 40px;
       float: left;
@@ -195,9 +148,12 @@ h3 {
       margin-bottom: 20px;
     }
 
-    hr {
-      display: none;
+    img {
+      width: 130px;
+      height: auto;
     }
+
+
 
 }
 /* /XS */
