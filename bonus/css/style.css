@@ -18,15 +18,6 @@ hr {
   text-align: center;
 }
 
-/* #steps {
-  text-align: center;
-} */
-
-/* BLOCCO PERCHE */
-/* #why {
-  text-align: center;
-} */
-
 #why .container>[class*="col-"] {
   /* width: 100%; */
   margin-top: 80px;
@@ -45,22 +36,11 @@ hr {
 
 img {
   height: 200px;
-  /* border: 1px solid black; */
 }
-
-.clear {
-  clear: both;
-}
-
-/* h1 {
-  padding: 30px;
-}
-h3 {
-  padding: 20px;
-} */
 
 /* MD */
 @media screen and (max-width: 991px) {
+
   .container {
       padding: 0px;
       margin-top: 40px;
@@ -69,28 +49,8 @@ h3 {
       color: #324d5b;
     }
 
-    .container h1, h3 {
-      text-transform: uppercase;
-      text-align: center;
-    }
-
     .container.grey {
       background-color: #ffffff;
-    }
-
-    h1 {
-      padding: 20px;
-      background-color: #324d5b;
-      color: white;
-      font-weight: 800;
-    }
-
-    img {
-      padding: 0px;
-    }
-    h3 {
-      padding: 10px;
-      font-weight: 600;
     }
 
     .container>[class*="col-"] {
@@ -109,15 +69,31 @@ h3 {
     }
 
     #why .container {
-      margin-top: 0px;
+      margin-top: 20px;
     }
 
     #why .container>[class*="col-"] {
       margin-top: 0px;
     }
 
-    #why .container {
-      margin-top: 20px;
+    img {
+      padding: 0;
+    }
+
+    h1, h3 {
+      text-transform: uppercase;
+      /* text-align: center; */
+    }
+
+    h1 {
+      padding: 20px;
+      background-color: #324d5b;
+      color: white;
+      font-weight: 800;
+    }
+    h3 {
+      padding: 10px;
+      font-weight: 600;
     }
 
 }
@@ -133,58 +109,10 @@ h3 {
       font-family: 'Raleway', sans-serif;
     }
 
-    .container h1, h3 {
-      text-transform: uppercase;
-      text-align: center;
-    }
-
-    h1 {
-      padding: 10px;
-    }
-
-    h3 {
-      padding: 5px;
-    }
-
-    img {
-      padding: 0;
-    }
-
-
-
-
-    /* #lezioni .container>[class*="col-"] {
-      margin-bottom: 0px;
-      padding: 0 0px;
-    } */
-
     .container [class*="col-"] {
       margin-bottom: 0px;
       padding: 30px;
     }
-
-    /* #steps .container>[class*="col-"] {
-      margin-bottom: 0px;
-      padding: 0 00px;
-    } */
-
-    img {
-      width: 130px;
-      height: auto;
-      background-color: #e6a422;
-    }
-
-    #lezioni .container #screen img {
-      width: 130px;
-      height: auto;
-    }
-
-    #why .container img {
-      background-color: #e6a422;
-      border-radius: 0;
-      padding: 0;
-    }
-
 
     #lezioni .container #screen {
       /* per centrare orizzontalmente */
@@ -196,6 +124,8 @@ h3 {
     }
 
     #lezioni .container #screen img{
+      width: 130px;
+      height: auto;
       position: absolute;
       top:50%;
       left: 50%;
@@ -206,8 +136,27 @@ h3 {
       margin-top: 0px;
     }
 
+    #why .container img {
+      background-color: #e6a422;
+      border-radius: 0;
+      padding: 0;
+    }
 
+    img {
+      width: 130px;
+      height: auto;
+      background-color: #e6a422;
+      padding: 0;
+    }
 
+    h1 {
+      padding: 10px;
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      padding: 5px;
+    }
 
 }
 /* /XS */
